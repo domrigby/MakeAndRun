@@ -1,0 +1,7 @@
+#! /bin/bash
+
+sudo mv /makeandrun /usr/local/bin
+
+sudo chown root: /usr/local/bin/makeandrun
+
+sudo chmod 755 makeandrun

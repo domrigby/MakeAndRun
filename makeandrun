@@ -1,0 +1,10 @@
+#!/bin/bash
+
+filename=${1?Error: no file}
+
+fileCString=$filename'.c'
+fileOString=$filename'.o'
+
+gcc $fileCString -o $fileOString  -lm
+
+ ./$fileOString
