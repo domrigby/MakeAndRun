@@ -1,2 +1,4 @@
+Run this in the directory:
+
 sudo chmod +x setup
 ./setup
